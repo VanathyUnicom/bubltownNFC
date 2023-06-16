@@ -1,14 +1,12 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:file_picker/file_picker.dart';
-import 'package:firstweb/common/app.dart';
-import 'package:firstweb/models/dio_models.dart';
-import 'package:firstweb/providers/locator.dart';
-import 'package:firstweb/providers/user_provider.dart';
-import 'package:firstweb/services/hive_service.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:firstweb/common/globel_variables.dart';
+
+import '../common/app.dart';
+import '../common/globel_variables.dart';
+import '../models/dio_models.dart';
+
 
 class DioService {
   get(String url, {bool token = false}) async {
@@ -44,40 +42,16 @@ class DioService {
     }
   }
 
-  uploadImage(List<PlatformFile> files, String url, {bool token = false}) async {
-    var dio = Dio();
-    var x = MultipartFile.fromBytes(
-      files.first.bytes as List<int>,
-      filename: files.first.name,
-    );
-
-    FormData formData = FormData.fromMap({
-      "file": x,
-    });
-    final res = await dio.post(baseUrl + url,
-        data: formData,
-        options: Options(
-          headers: await getHeader(token),
-          validateStatus: (status) => true,
-        ));
-    CommonRestBody body = App.responseMessage(res);
-    if (body.error.status == HttpCodeEnum.ok.status.toString()) {
-      return res;
-    } else {
-      return res;
-    }
-  }
 
   Future<Map<String, dynamic>> getHeader(bool isAuth) async {
     Map<String, dynamic> headers = {
       'Content-Type': 'application/json',
       'accept-language': 'en-US',
-      'DeviceId': getIt<UserProvider>().deviceId
     };
     if (isAuth) {
-      headers['Authorization'] = getIt<UserProvider>().isAuthorized
-          ? 'Bearer ${await HiveService.retrieveFromHive(name: 'token', boxName: 'account')}'
-          : "Bearer " + getIt<UserProvider>().clientToken;
+      // headers['Authorization'] = getIt<UserProvider>().isAuthorized
+      //     ? 'Bearer ${await HiveService.retrieveFromHive(name: 'token', boxName: 'account')}'
+      //     : "Bearer " + getIt<UserProvider>().clientToken;
     }
     debugPrint(headers['Authorization']);
     return headers;
