@@ -1,0 +1,290 @@
+{
+    "result": {
+        "id": "8bdf988b-f083-42fb-3b3d-08dacdfabb57",
+        "regionId": "d0c30366-9953-4034-722b-08d7a9ea64c5",
+        "name": "Espresso Cafe",
+        "phone": "+94769006515",
+        "currency": "£",
+        "currencyCode": "GBP",
+        "desc": "Art Venue ‧ 3 minutes each ‧ Celebration cakes ‧ Charitable organisation ‧ Milkshakes",
+        "isActive": true,
+        "industries": [
+            {
+                "id": "438af867-b4a1-4db8-b56b-2daa4e214b84",
+                "name": "Events",
+                "catalogId": "6f18fb63-2751-4b8a-9cdb-4f625484f67a",
+                "mapIcon": null,
+                "serviceOption": null,
+                "serviceOptions": [
+                    {
+                        "id": 8,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    }
+                ]
+            },
+            {
+                "id": "0f586f2f-5e45-4e17-91b9-73222f375067",
+                "name": "History",
+                "catalogId": "90c854a4-20cf-45bf-9c04-37562e68d895",
+                "mapIcon": null,
+                "serviceOption": null,
+                "serviceOptions": [
+                    {
+                        "id": 1,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    },
+                    {
+                        "id": 2,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    }
+                ]
+            },
+            {
+                "id": "a185906b-7612-401f-9d27-816b5625a7df",
+                "name": "Food & Drink",
+                "catalogId": "3476a335-2961-447a-9af2-7aaf19d8f1d0",
+                "mapIcon": null,
+                "serviceOption": null,
+                "serviceOptions": [
+                    {
+                        "id": 1,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    },
+                    {
+                        "id": 2,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    }
+                ]
+            },
+            {
+                "id": "bcd1b964-a4bf-4232-b121-fbf328929c53",
+                "name": "Eat & Drink",
+                "catalogId": "702f7d99-8e96-49aa-8aac-228ad8698262",
+                "mapIcon": null,
+                "serviceOption": null,
+                "serviceOptions": [
+                    {
+                        "id": 1,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    },
+                    {
+                        "id": 2,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    }
+                ]
+            },
+            {
+                "id": "0449a048-397e-4666-90d8-c50b2f9e4de8",
+                "name": "Gifts",
+                "catalogId": "081e5ab8-2d75-4438-b3c3-66ee551f9871",
+                "mapIcon": null,
+                "serviceOption": null,
+                "serviceOptions": [
+                    {
+                        "id": 1,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    },
+                    {
+                        "id": 2,
+                        "desc": null,
+                        "name": null,
+                        "isActive": false,
+                        "restrictSameDayOrder": false,
+                        "minOrderAmount": 0.0,
+                        "amount": 0.0,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ],
+        "images": [
+            "https://bublstorage.blob.core.windows.net/bubl/Vendor/8bdf988b-f083-42fb-3b3d-08dacdfabb57/Image/c165b15b-3758-4620-bd74-3dd9c441de55",
+            "https://bublstorage.blob.core.windows.net/bubl/Vendor/8bdf988b-f083-42fb-3b3d-08dacdfabb57/Image/2bef42b6-7ed0-4d7e-8347-7e004a77c65c",
+            "https://bublstorage.blob.core.windows.net/bubl/Vendor/8bdf988b-f083-42fb-3b3d-08dacdfabb57/Image/b1213d4b-6d2c-4afc-8e00-17eb922defc2"
+        ],
+        "thumbs": [
+            "https://bublstorage.blob.core.windows.net/bubl/Vendor/8bdf988b-f083-42fb-3b3d-08dacdfabb57/Image/c165b15b-3758-4620-bd74-3dd9c441de55",
+            "https://bublstorage.blob.core.windows.net/bubl/Vendor/8bdf988b-f083-42fb-3b3d-08dacdfabb57/Image/2bef42b6-7ed0-4d7e-8347-7e004a77c65c",
+            "https://bublstorage.blob.core.windows.net/bubl/Vendor/8bdf988b-f083-42fb-3b3d-08dacdfabb57/Image/Thumbnail/b1213d4b-6d2c-4afc-8e00-17eb922defc2"
+        ],
+        "industryId": "438af867-b4a1-4db8-b56b-2daa4e214b84",
+        "isFavourite": false,
+        "vendorMode": 3,
+        "event": null,
+        "distance": 510.97,
+        "webSite": "https://demotown.co.uk",
+        "serviceOption": [
+            {
+                "id": 1,
+                "desc": "Collection",
+                "name": "Collection",
+                "isActive": false,
+                "restrictSameDayOrder": false,
+                "minOrderAmount": 0.00,
+                "amount": 0.00,
+                "isDefault": true
+            }
+        ],
+        "serviceOptionTypesEnums": [
+            23,
+            11,
+            21,
+            12,
+            24,
+            22,
+            81,
+            25
+        ],
+        "serviceOptionTypes": [
+            {
+                "serviceOptionTypeId": 23,
+                "name": "NextDayDeliver",
+                "description": "Next Day Deliver",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 11,
+                "name": "ExpressCollection",
+                "description": "Express Collection",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 21,
+                "name": "DeliverNow",
+                "description": "Deliver Now",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 12,
+                "name": "ScheduledCollection",
+                "description": "Scheduled Collection",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 24,
+                "name": "ScheduledDeliver",
+                "description": "Scheduled Deliver",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 22,
+                "name": "SameDayDeliver",
+                "description": "Same Day Deliver",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 81,
+                "name": "Event",
+                "description": "Event",
+                "imageUrl": null
+            },
+            {
+                "serviceOptionTypeId": 25,
+                "name": "MailOrder",
+                "description": "Mail Order",
+                "imageUrl": null
+            }
+        ],
+        "openHours": null,
+        "openStatus": {
+            "opened": true,
+            "nextOpenTime": null,
+            "nextCloseTime": "2023-06-23T22:59:00Z",
+            "is24HoursOpen": true,
+            "isEndTimeIsTomorrow": false
+        },
+        "address": {
+            "id": "d9132206-a88f-4104-87d0-15ddd75d5340",
+            "title": "",
+            "number": "98",
+            "street": "Union Street",
+            "city": "London",
+            "state": "England",
+            "zipcode": "cv1",
+            "country": "United Kingdom",
+            "lat": 51.503986800000007,
+            "lon": -0.0973192
+        },
+        "expressItems": [],
+        "offers": null,
+        "rating": {
+            "count": 10,
+            "value": 3.00,
+            "label": "Average",
+            "colour": "#FF00FF"
+        },
+        "tags": "Art Venue,3 minutes each,Celebration cakes,Charitable organisation,Milkshakes",
+        "allowPayOnCollection": true,
+        "allowPayOnDelivery": false,
+        "allowCardPayment": false,
+        "socialMediaAcounts": {
+            "faceBook": "www.facebook.com",
+            "instagram": "",
+            "twitter": null,
+            "youTube": null
+        },
+        "communityIcons": null,
+        "chatEnabled": false,
+        "views": 1864,
+        "shares": 141,
+        "offersCount": null,
+        "channelId": "22debf5c-dacc-4d69-f0a0-08d8bebaf849",
+        "followersCount": 52,
+        "isFollowing": true,
+        "isAddressHideToCustomer": false
+    },
+    "isError": false,
+    "error": {
+        "title": null,
+        "detail": null,
+        "status": null
+    }
+}
